@@ -138,10 +138,14 @@ body {
         border: 5px solid rgb(255, 0, 191);
         width: 100%;
         P {
-            padding: 100px;
+            padding: 70px;
+            height: 60vh;
         }
         .propos {
             background: rgba(255, 255, 255, 0.08) !important;
+        }
+        .img {
+            width: 100% !important;
         }
     }
 }
@@ -169,7 +173,39 @@ footer {
 /* FIN FOOTER */
 
 // MEDIA QUERY
-// MOBOLE
-@media screen and (max-width: 991px) {
-    /* style pr le header */
+// TABLETTE
+@media screen and (max-width: 990px) {
+    // FOOTER
+    footer {
+        span {
+            margin-right: 30px;
+            font-size: 13px;
+        }
+    }
+    /* FIN FOOTER */
 }
+
+
+/* FIN TABLETTE */
+
+// MOBILE
+@media screen and (max-width: 760px) {
+    /* style pr le header */
+    .container {
+        h2 {
+            font-size: 1.6rem;
+        }
+    }
+    /* fin header */
+    // FOOTER
+    footer {
+        span {
+            margin-right: 15px;
+            font-size: 10px;
+        }
+    }
+    /* FIN FOOTER */
+}
+
+
+/* FIN MOBILE */
