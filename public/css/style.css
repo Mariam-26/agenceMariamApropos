@@ -130,10 +130,14 @@ body {
   width: 100%;
 }
 .container .section P {
-  padding: 100px;
+  padding: 70px;
+  height: 60vh;
 }
 .container .section .propos {
   background: rgba(255, 255, 255, 0.08) !important;
+}
+.container .section .img {
+  width: 100% !important;
 }
 
 footer {
@@ -155,8 +159,29 @@ footer .copy {
 }
 
 /* FIN FOOTER */
-@media screen and (max-width: 991px) {
-  /* style pr le header */
+@media screen and (max-width: 990px) {
+  footer span {
+    margin-right: 30px;
+    font-size: 13px;
+  }
+
+  /* FIN FOOTER */
 }
+/* FIN TABLETTE */
+@media screen and (max-width: 760px) {
+  /* style pr le header */
+  .container h2 {
+    font-size: 1.6rem;
+  }
+
+  /* fin header */
+  footer span {
+    margin-right: 15px;
+    font-size: 10px;
+  }
+
+  /* FIN FOOTER */
+}
+/* FIN MOBILE */
 
 /*# sourceMappingURL=style.css.map */
